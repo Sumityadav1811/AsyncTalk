@@ -44,11 +44,11 @@ git clone https://github.com/Sumityadav1811/AsyncTalk.git
 cd AsyncTalk
 
 # Install dependencies for backend
-cd server
+cd backend
 npm install
 
 # Install dependencies for frontend
-cd ../client
+cd ../frontend
 npm install
 
 # Create a .env file in both client and server directories with required variables
@@ -59,3 +59,4 @@ npm install
 
 # Run backend and frontend concurrently
 npm run dev
+
